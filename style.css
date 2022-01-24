@@ -8,10 +8,33 @@
     display: flex;
 }
 
+.flex2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .altro{
     background-color: blue;
     height: 50px;
-    border: 2px solid white;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.altro2{
+    background-color: blue;
+    height: 70px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.altrogreen{
+    background-color: greenyellow;
+    height: 50px;
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
