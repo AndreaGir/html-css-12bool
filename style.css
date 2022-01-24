@@ -13,6 +13,23 @@
     flex-direction: row-reverse;
 }
 
+.flex3{
+    display: flex;
+    justify-content: center;
+}
+
+.flex4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex5{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .altro{
     background-color: blue;
     height: 50px;
@@ -24,6 +41,14 @@
 .altro2{
     background-color: blue;
     height: 70px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.altro3{
+    background-color: blue;
+    height: 100px;
     margin: 3px;
     display: flex;
     align-items: center;
